@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background: url(img/welcomebg.webp);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+ul li{
+    font-weight: 100;
+}
+
+ul li:first-child{
+    font-weight: 900;
+}
+
+/* NAV ENDS */
+
+.secondsection{
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    align-items: center;
+    background-image: url(img/welcomebg.webp);
+    background-position: center;
+}
+
+.secondsection h2{
+    font-size: 40px;
+    color: green;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: darkgrey;
+}
+
+.secondsectionimg img{
+    height: 70vh;
+    width: 90vh;
+}
+
+/* SECOND SECTION END */
+
+.thirdsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.firstthirdsection{
+    background-image: url(img/images\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.secondthirdsection{
+    background-image: url(img/images\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.secondthirdsection h2, .firstthirdsection h2{
+    padding-top: 30px;
+}
+.secondthirdsection p, .firstthirdsection p{
+    color: black;
+}
+
+.thirdsection a{
+    color: green;
+    font-weight: 900;
+    text-decoration: none;
+}

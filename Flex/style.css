@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+article{
+    background-color: aquamarine;
+    margin-top: 9px;
+    padding: 10px;
+}
+
+p{
+    font-size: 14px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 400px;
+}

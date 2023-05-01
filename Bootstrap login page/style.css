@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;   
+}    
+    main{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img{
+    height: 60px;
+}
+
+h2{
+    font-weight: 600;
+}
+
+.email, .password{
+    display: block;
+    width: 500px;
+    height: 40px;
+}
+.password{
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+button{
+    border: transparent;
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.6s all ease;
+}
